@@ -1,43 +1,216 @@
+/*Overall frame for site*/
+
 body {
-    margin: 60px auto;
-    width: 70%;
+  font-family: 'Karla', sans-serif;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+a{
+  color: #6b93f2;
+  text-decoration: none;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
+
 a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  color: #33b771;
+  text-decoration: none;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+ul {
+  list-style-type: none;
+  margin-left: 19px;
+  padding: 0;
 }
 
-ul.posts li {
-    list-style: none;
+/*----------------------------------------------------------------------------*/
+/*Homepage*/
+
+.banner {
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Life log*/
+
+table.logtable td.col1 { width: 100px; align='left'}
+table.logtable td.col2 { width: 460px; align='left'}
+
+.logdate {
+  font-size: 12px;
+  color: #999999; 
+  font-weight: bold;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Notes list*/
+
+.notes-list-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  vertical-align: middle;
+  vertical-align: middle;
+  line-height: 25px; 
+  margin: 1px;
+  padding: 0;
+}
+
+.notes-list-abstract {
+  display: block;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.notes-list-date {
+  color: #666666;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Inidvidual note*/
+
+.note-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.note-abstract {
+  font-size: 17px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 18px;
+  padding-right: 18px;
+  padding-bottom: 18px;
+  padding-left: 18px;
+}
+
+.note-date {
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.note-photo {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Projects list*/
+
+.projects-list-headers {
+  margin: 0;
+  padding: 0;
+}
+
+.projects-list-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  vertical-align: middle;
+  vertical-align: middle;
+  line-height: 25px; 
+  margin: 1px;
+  padding: 0;
+}
+
+.projects-list-recognitions {
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-list-technologies {
+  color: #666666;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.projects-list-abstract {
+  display: block;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.projects-list-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Individual project*/
+
+.project-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.project-abstract {
+  font-size: 17px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 18px;
+  padding-right: 18px;
+  padding-bottom: 18px;
+  padding-left: 18px;
+}
+
+.project-date {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.project-photo-left {
+  width: 50%;
+  height: 50%;
+  display: inline;
+  float: left;
+}
+
+.project-photo-right {
+  width: 50%;
+  height: 50%;
+  display: inline;
+  float: right;
+}
+
+.project-photo-center {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.project-recognitions {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.project-technologies {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+.project-collaborators {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
 }
