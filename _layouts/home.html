@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-	    <head>
+		<head>
             <title>{{ site.title}} // {{page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -13,23 +13,43 @@
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">Resume</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
+            <!-- Page Content -->
+            <div class="container">
+                <div class="modal-body row">
+                <!-- Top navigation -->
+                <div class="col-md-10">
+                    <h1>
+                        <a href="/index.html">{{ site.title }}</a>~
+                        <span id="software-engineer">Software Engineer</span>
+                        <span id="photographer"></span>
+                    </h1>
+                </div>
+
+                <div class="col-md-2" align="right">
+                    <a href="/projects.html"><i class="fa fa-heart" aria-hidden="true"></i> Projects</a>
+                    <br>
+                    <a href=""><i class="far fa-file-pdf"></i> Resume/CV</a>
+                    <br>
+                    <a href="/blog"><i class="fa fa-camera" aria-hidden="true"></i> Blog</a>
+                    <br>
+                    <a href="/notes.html"><i class="fas fa-pencil-alt"></i> Notes</a>
+                    <br>
+                </div>
+            </div>
+
+      <div class="col-md-12">
+            <hr>
+      </div>
+      <img src="../assets/img/banner.jpg" class="banner" height="540" width="1000"/>
+
+      <hr>
+
+            {{ content }}
+            </div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:daniel.h.lee@columbia.edu">email</a></li>
-	        		<li><a href="https://github.com/danihlee">Github</a></li>
+	        		<li><a href="https://github.com/danihlee">github</a></li>
 				</ul>
 			</footer>
 		</body>

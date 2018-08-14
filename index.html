@@ -5,17 +5,25 @@ title: Welcome
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Daniel Hyunsoo Lee</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="/text/css" href="main.css">
-	</head>
+	    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+		<head>
+            <title>{{ site.title}} // {{page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+            <!-- bootstrap css -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		</head>
 <!-- Professional column -->
+<div class="modal-body row">
 <div class="col-md-8">
-  <h3>Professional info</h3>
-  <p>I am a freshman at Columbia University, studying Computer Science as an undergraduate. I am interested in machine learning, software engineering, and systems.</p>
-  <p>During the past year, I conducted computational neuroscience research at Cold Spring Harbor Laboratory, developing machine learning models for brain signal analysis.</p>
-  <p>The summer prior, I developed deep learning architectures at Brookhaven National Lab to improve time-series-based predictions power output from solar farms. I also co-mentored a other intern teams on ML projects in pathology risk prediction </p>
+  <h3>About Me</h3>
+  <p>I am currently a computer science student at Columbia University for undergraduate and aspiring software engineer. My interests include machine learning, software engineering, systems, and economic modelling.</p>
+  <p>During the past year, I conducted computational neuroscience research at Cold Spring Harbor Laboratory on developing machine learning models for brain signal analysis.</p>
+  <p>The summer prior, I developed deep learning architectures at Brookhaven National Lab to improve time-series-based predictions power output from solar farms. I also co-mentored a other intern teams on ML projects in infant disease risk prediction </p>
   <ul>
     <li><a href="https://github.com/danihlee"><i class="fab fa-github"></i> GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/dani.cmh.lee/"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
@@ -23,10 +31,19 @@ title: Welcome
   </ul>
 </div>
 
+<div class="col-md-4">
+  <h3>Personal Journal</h3>
+  <table class='logtable' border='0' cellpadding='0' cellspacing='0'>
+    <!-- Most recent 10 -->
+    <tr><td><span class='logdate'>July 22</span></td><td> Back in NY! Goodbye to NYSC and West Virginia</a></td></tr>
+    <tr><td class='col1'>&nbsp;</td><td class='col2'><a href='/life-log.html'>More...</a></td></tr>
+  </table>
+</div>
+
 <!-- Personal column -->
 <div class="col-md-4">
-  <h3>Personal info</h3>
-  <p> Outside of academia, I have interests in music composition, poetry, nature hikes, and philosophy. Also a certified professional Wii tennis player.</p>
+  <h3>Personal Tidbits</h3>
+  <p> Outside of academia, I have interests in music composition, poetry, nature hikes, weightlifting, and philosophy.</p>
   <ul>
     <li><a href="https://open.spotify.com/user/dani.cmh.lee?si=ZESwZVrBS4uV27QUX93sgw"><i class="fab fa-spotify"></i> Muy Fuego Spotify </a></li>
     <li><a href="https://facebook.com/dani.cmh.lee"><i class="fab fa-facebook-f"></i> Facebook</a></li>
@@ -35,12 +52,13 @@ title: Welcome
 
 <!-- Contact column-->
 <div class="col-md-4">
-  <h3>Contacting me</h3>
-  <p>My email address is dani.cmh.lee@gmail.com or daniel.h.lee@columbia.edu</p>
+  <h3>Contact me!</h3>
+  <p>Reach me at dani.cmh.lee@gmail.com or daniel.h.lee@columbia.edu if you have any questions or just want to talk!</p>
 </div>
 
 <!-- Updated row-->
 <div class="col-md-4">
   <h3>Last updated</h3>
   <p>August 14, 2018</p>
+</div>
 </div>
