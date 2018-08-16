@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ping Pong, Sunbutter, and the Dalai Lama: "Lessons from National Youth Science Camp (NYSC)"
+title: "Ping Pong, Sunbutter, and the Dalai Lama: Lessons from National Youth Science Camp (NYSC)"
 date: 2018-08-13
 ---
 > 107 delegates from around the world. 37 brilliant lecturers. 32 dedicated staph members. 3 weeks at 1 camp in the West Virginia Forests. Countless unforgettable memories. 
