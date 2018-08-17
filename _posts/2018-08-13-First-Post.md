@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Ping Pong, Sunbutter, and the Dalai Lama: Lessons from National Youth Science Camp (NYSC)"
+title: ""
+abstract: "at National Youth Science Camp"
 date: 2018-08-13
 ---
-> 107 delegates from around the world. 37 brilliant lecturers. 32 dedicated staph members. 3 weeks at 1 camp in the West Virginia Forests. Countless unforgettable memories. 
+"When you wake up in the morning where the Rhododendrons grow..."
 
-"I'm down to two bars!" cried my friend Chris. "#@!&! I need to call my parents before we lose service!" exclaims another.
 
-As our four hour-long trek to the campsite came to a close, the cries of frantic teenagers could be heard as we 
+
+As our four hour-long trek to the campsite came to a close, the cries of frantic teenagers could be heard as we ascended up the Allegheny Mountains.  
 
 Lesson 1: Ping Pong
 
